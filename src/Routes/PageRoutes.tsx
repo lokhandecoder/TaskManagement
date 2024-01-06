@@ -11,9 +11,9 @@ function PageRoutes() {
         <>
             <Navbar />
             <Routes>
-                <Route path="/taskmanagement/" element={<HomePage />} />
-                <Route path="/taskmanagement/add-task" element={<AddTask />} />
-                <Route path="/taskmanagement/add-task/:taskId" element={<AddTask />} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/add-task" element={<AddTask />} />
+                <Route path="/add-task/:taskId" element={<AddTask />} />
             </Routes>
             <ToastContainer position="top-center" />
 
