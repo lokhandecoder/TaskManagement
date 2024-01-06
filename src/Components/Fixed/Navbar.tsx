@@ -12,10 +12,10 @@ function Navbar() {
         setIsMobile(!isMobile);
     };
     const handleAddtask = () => {
-        navigate('/add-task')
+        navigate('/taskmanagement/add-task')
     }
     const hanldleHomepage = () => {
-        navigate('/')
+        navigate('/taskmanagement/')
 
     }
 
@@ -29,7 +29,7 @@ function Navbar() {
             <button className="navbar-toggle" onClick={handleToggle}>
                 Menu
             </button>
-            {location.pathname === '/' ? (
+            {location.pathname === '/taskmanagement/' ? (
                 <button className='navbar-add-task' onClick={handleAddtask}>
                     Add task
                 </button>
