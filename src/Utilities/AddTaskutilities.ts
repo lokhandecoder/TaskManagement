@@ -76,7 +76,7 @@ export const AddTaskutilities = () => {
             };
             existingTasks.push(newTask);
             localStorage.setItem('tasks', JSON.stringify(existingTasks));
-            navigate("/add-task")
+            navigate("/TaskManagement/add-task")
             toast.success('New task added successfully');
         }
 
@@ -91,7 +91,7 @@ export const AddTaskutilities = () => {
             const updatedTasks = existingTasks.filter(task => task.id !== taskId);
             localStorage.setItem('tasks', JSON.stringify(updatedTasks));
             toast.success('Task deleted successfully');
-            navigate("/add-task")
+            navigate("/TaskManagement/add-task")
             setFormData(initialTaskFormData);
         } else {
             toast.error('No task found to delete');
