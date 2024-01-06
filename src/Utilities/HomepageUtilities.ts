@@ -47,7 +47,7 @@ export const HomepageUtilities = () => {
     }
     const handleEdit = (id: number) => {
         // alert(id)\
-        navigate(`/add-task/${id}`)
+        navigate(`/TaskManagement/add-task/${id}`)
 
     }
 
