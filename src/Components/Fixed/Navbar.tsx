@@ -29,7 +29,7 @@ function Navbar() {
             <button className="navbar-toggle" onClick={handleToggle}>
                 Menu
             </button>
-            {location.pathname === '/' ? (
+            {location.pathname === '/TaskManagement/' ? (
                 <button className='navbar-add-task' onClick={handleAddtask}>
                     Add task
                 </button>
