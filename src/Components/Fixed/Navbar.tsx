@@ -12,10 +12,10 @@ function Navbar() {
         setIsMobile(!isMobile);
     };
     const handleAddtask = () => {
-        navigate('/TaskManagement/add-task')
+        navigate('/add-task')
     }
     const hanldleHomepage = () => {
-        navigate('/TaskManagement/')
+        navigate('/')
 
     }
 
