@@ -1,0 +1,9 @@
+.vertical-grid-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .vertical-grid-item {
+    flex-grow: 1;
+    border: 1px solid #000; 
+  }
