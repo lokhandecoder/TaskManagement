@@ -19,6 +19,11 @@ In the project directory, you can run:
 5. and i have deploye this project on github live {"https://lokhandecoder.github.io/taskmanagement/"}
 6. for CSS i have used tailwind Css
 7. i tried with material ui also but unfortunately some libraries like datepicker was createing trouble for rendering so i have used material ui
+8. Here User can manage the Task on homepage
+9. You can add new task by click on Add button on homepage
+10. you can edit and delete each task 
+11. Main Functionality is where you can drag and change the status of each task
+
 
 
 
